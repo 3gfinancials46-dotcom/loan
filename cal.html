@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <section class="calculator-section">
+
+    <div class="calculator-left">
+        <span class="tag">CredAdvance</span>
+
+        <h1>Advance Loan Calculator</h1>
+
+        <p>
+            Calculate your estimated monthly EMI, total repayment,
+            and interest instantly.
+        </p>
+
+        <div class="calculator-box">
+
+            <div class="input-group">
+                <label>Loan Amount (₹)</label>
+                <input type="range" min="10000" max="500000" value="200000">
+                <div class="value">₹2,00,000</div>
+            </div>
+
+            <div class="input-group">
+                <label>Interest Rate (%)</label>
+                <input type="range" min="5" max="20" value="10">
+                <div class="value">10%</div>
+            </div>
+
+            <div class="input-group">
+                <label>Loan Tenure (Months)</label>
+                <input type="range" min="6" max="60" value="24">
+                <div class="value">24 Months</div>
+            </div>
+
+            <button>Calculate EMI</button>
+
+        </div>
+
+    </div>
+
+    <div class="calculator-right">
+
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=700"
+             alt="Finance Calculator">
+
+        <div class="result-card">
+            <h3>Estimated EMI</h3>
+            <h2>₹9,230</h2>
+
+            <div class="line"></div>
+
+            <p>Total Interest</p>
+            <h4>₹21,520</h4>
+
+            <p>Total Repayment</p>
+            <h4>₹2,21,520</h4>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>

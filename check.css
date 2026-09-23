@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f6f9fc;
+}
+
+.eligibility{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+.eligibility-content{
+    flex:1;
+}
+
+.section-badge{
+    display:inline-block;
+    background:#0d6efd;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:30px;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.eligibility-content h2{
+    font-size:42px;
+    color:#222;
+    margin-bottom:20px;
+}
+
+.eligibility-content p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.benefits{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.benefit-card{
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+    background:#fff;
+    padding:18px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+}
+
+.benefit-card i{
+    width:55px;
+    height:55px;
+    background:#0d6efd;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+}
+
+.benefit-card h4{
+    margin-bottom:8px;
+    color:#222;
+}
+
+.benefit-card p{
+    margin:0;
+    color:#666;
+}
+
+.eligibility-box{
+    flex:1;
+    position:relative;
+}
+
+.eligibility-box img{
+    width:100%;
+    border-radius:20px;
+    display:block;
+}
+
+.eligibility-form{
+    width:90%;
+    background:#fff;
+    margin:-70px auto 0;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+    position:relative;
+}
+
+.eligibility-form h3{
+    text-align:center;
+    margin-bottom:20px;
+    color:#222;
+}
+
+.eligibility-form input,
+.eligibility-form select{
+    width:100%;
+    padding:15px;
+    margin-bottom:18px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    outline:none;
+    font-size:15px;
+}
+
+.eligibility-form input:focus,
+.eligibility-form select:focus{
+    border-color:#0d6efd;
+}
+
+.eligibility-form button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#0d6efd;
+    color:#fff;
+    border-radius:10px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.eligibility-form button:hover{
+    background:#084dc7;
+}
+
+@media(max-width:900px){
+
+.eligibility{
+    flex-direction:column;
+}
+
+.eligibility-content h2{
+    font-size:34px;
+}
+
+.eligibility-form{
+    width:100%;
+    margin-top:20px;
+}
+
+}

@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f8fc;
+}
+
+.apply-section{
+    max-width:1200px;
+    margin:80px auto;
+    padding:0 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.apply-content{
+    flex:1;
+}
+
+.section-tag{
+    display:inline-block;
+    background:#0d6efd;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.apply-content h2{
+    font-size:45px;
+    color:#1b1b1b;
+    margin-bottom:20px;
+}
+
+.apply-content p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+}
+
+.feature{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:#fff;
+    padding:18px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.06);
+}
+
+.feature i{
+    color:#0d6efd;
+    font-size:20px;
+}
+
+.apply-box{
+    flex:1;
+    position:relative;
+}
+
+.apply-box img{
+    width:100%;
+    border-radius:20px;
+    display:block;
+}
+
+.form-card{
+    width:90%;
+    background:#fff;
+    margin:-70px auto 0;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+    position:relative;
+}
+
+.form-card h3{
+    text-align:center;
+    margin-bottom:25px;
+    color:#222;
+}
+
+.form-card input,
+.form-card select{
+    width:100%;
+    padding:15px;
+    margin-bottom:18px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    outline:none;
+    font-size:15px;
+}
+
+.form-card input:focus,
+.form-card select:focus{
+    border-color:#0d6efd;
+}
+
+.form-card button{
+    width:100%;
+    padding:15px;
+    background:#0d6efd;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.form-card button:hover{
+    background:#084dc7;
+}
+
+@media(max-width:900px){
+
+.apply-section{
+    flex-direction:column;
+}
+
+.apply-content h2{
+    font-size:34px;
+}
+
+.features{
+    grid-template-columns:1fr;
+}
+
+.form-card{
+    width:100%;
+    margin-top:20px;
+}
+
+}
